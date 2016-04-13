@@ -1,14 +1,31 @@
-# map-to-json
+# clj-to-json
 
-A Clojure library designed to ... well, that part is up to you.
+Convert from Clojure data to JSON data.
+
+Example...
+
+Input) 
+
+<code>{
+	:a "apple"
+	:b "banana"
+}
+</code>	 
+
+It'll be like this.
+
+Output) 
+
+<code>{
+	"b":"banana", 
+	"a":"apple"
+}
+</code>
 
 ## Usage
 
-FIXME
+lein run <file path>
 
 ## License
 
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2016 MIT
