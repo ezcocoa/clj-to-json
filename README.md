@@ -24,7 +24,7 @@ Output)
 
 ## Usage
 
-lein run <file path>
+lein run 'file path'
 
 ## License
 
